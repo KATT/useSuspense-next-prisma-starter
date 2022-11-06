@@ -30,7 +30,12 @@ const IndexPage: NextPageWithLayout = () => {
   useEffect(() => {
     const allPosts = postsQuery.data?.pages.flatMap((page) => page.items) ?? [];
     for (const { id } of allPosts) {
-      void utils.post.byId.prefetch({ id });
+      void utils.post.byId.prefetch(
+        { id },
+        {
+          staleTime: Infinity,
+        },
+      );
     }
   }, [postsQuery.data, utils]);
 
