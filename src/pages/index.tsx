@@ -9,7 +9,7 @@ const IndexPage: NextPageWithLayout = () => {
   const utils = trpc.useContext();
   const postsQuery = trpc.post.list.useSuspenseInfiniteQuery(
     {
-      limit: 1,
+      limit: 20,
     },
     {
       getPreviousPageParam(lastPage) {
