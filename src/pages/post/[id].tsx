@@ -22,12 +22,7 @@ function PostItem(props: { post: PostByIdOutput }) {
 
 const PostViewPage: NextPageWithLayout = () => {
   const id = useRouter().query.id as string;
-  const postQuery = trpc.post.byId.useQuery(
-    { id },
-    {
-      suspense: true,
-    },
-  );
+  const postQuery = trpc.post.byId.useSuspenseQuery({ id });
 
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   const data = postQuery.data!;

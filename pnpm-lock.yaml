@@ -4,10 +4,10 @@ specifiers:
   '@playwright/test': ^1.26.1
   '@prisma/client': ^4.3.1
   '@tanstack/react-query': ^4.3.8
-  '@trpc/client': ^10.0.0-rc.6
-  '@trpc/next': ^10.0.0-rc.6
-  '@trpc/react-query': ^10.0.0-rc.6
-  '@trpc/server': ^10.0.0-rc.6
+  '@trpc/client': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
+  '@trpc/next': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
+  '@trpc/react-query': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
+  '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
   '@types/node': ^18.7.20
   '@types/react': ^18.0.9
   '@typescript-eslint/eslint-plugin': ^5.37.0
@@ -36,10 +36,10 @@ specifiers:
 dependencies:
   '@prisma/client': 4.5.0_prisma@4.5.0
   '@tanstack/react-query': 4.14.5_biqbaboplfbrettd7655fr4n2y
-  '@trpc/client': 10.0.0-rc.6_@trpc+server@10.0.0-rc.6
-  '@trpc/next': 10.0.0-rc.6_pejbcbjl5t2fknwviqbtqyakem
-  '@trpc/react-query': 10.0.0-rc.6_h3mjqjiubmd4hdgk2olt4mjdpm
-  '@trpc/server': 10.0.0-rc.6
+  '@trpc/client': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_ukfvue4lycpo3d2bc3nwdxn6qy
+  '@trpc/next': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_fie3oj4mdug37s4kw46xophzuy
+  '@trpc/react-query': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_6oovopb62eugc47hrg6o5d62a4
+  '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8
   clsx: 1.2.1
   next: 13.0.2_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -411,53 +411,53 @@ packages:
       use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
-  /@trpc/client/10.0.0-rc.6_@trpc+server@10.0.0-rc.6:
-    resolution: {integrity: sha512-/vyi0b9R+DOJgvYFFYSveRwIX4Ttu01Af0ORzZGsDHYZGB7lfSqHfQhizf+AHfEpQXQsJYy5ZFOt6RtvF6LuKg==}
+  /@trpc/client/10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_ukfvue4lycpo3d2bc3nwdxn6qy:
+    resolution: {integrity: sha512-3xVG8If9UcIzfgiigC1V/EMeCmlUocLgp81zh5yOcKh0Cs6dB/fdeDJAByR4DmyykUrKM0F4wj/oKy3qIWc+TA==}
     peerDependencies:
-      '@trpc/server': 10.0.0-rc.6
+      '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
     dependencies:
-      '@trpc/server': 10.0.0-rc.6
+      '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8
     dev: false
 
-  /@trpc/next/10.0.0-rc.6_pejbcbjl5t2fknwviqbtqyakem:
-    resolution: {integrity: sha512-YaQbctwvYYk1HlVcJedRyQGT1EP5QiKse+T7zNj4Be0ZAiNVJwedC4AQ9YQDh0nK6GXDoHGVk8ocSCkNvEBddw==}
+  /@trpc/next/10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_fie3oj4mdug37s4kw46xophzuy:
+    resolution: {integrity: sha512-zIN92scmtbXEAXecxy5TZ48KF9Wrvw/d1CWGam6mmcFTUZKN0o+y8cEQtuIteO+vunCSxkCvYyg5ik9kl9V6ZA==}
     peerDependencies:
       '@tanstack/react-query': ^4.3.8
-      '@trpc/client': 10.0.0-rc.6
+      '@trpc/client': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
       '@trpc/react-query': ^10.0.0-proxy-beta.21
-      '@trpc/server': 10.0.0-rc.6
+      '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.14.5_biqbaboplfbrettd7655fr4n2y
-      '@trpc/client': 10.0.0-rc.6_@trpc+server@10.0.0-rc.6
-      '@trpc/react-query': 10.0.0-rc.6_h3mjqjiubmd4hdgk2olt4mjdpm
-      '@trpc/server': 10.0.0-rc.6
+      '@trpc/client': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_ukfvue4lycpo3d2bc3nwdxn6qy
+      '@trpc/react-query': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_6oovopb62eugc47hrg6o5d62a4
+      '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8
       next: 13.0.2_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-ssr-prepass: 1.5.0_react@18.2.0
     dev: false
 
-  /@trpc/react-query/10.0.0-rc.6_h3mjqjiubmd4hdgk2olt4mjdpm:
-    resolution: {integrity: sha512-OHkoZLDz86Q7wez7ayLAZiWATePi+QkwavyNu/x6c0f/dC8n7CUIZAhAjUN4SuZYEeZxbW351QtPIQwODT2XVA==}
+  /@trpc/react-query/10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_6oovopb62eugc47hrg6o5d62a4:
+    resolution: {integrity: sha512-1SpKLga0YZcY2fzzC/5FYo1HTrwjC6ulxdn5BWl/MRQlgDGzlWElHY022Abd8IuT4/0S1hf5yghXzcs+av8tWg==}
     peerDependencies:
       '@tanstack/react-query': ^4.3.8
-      '@trpc/client': 10.0.0-rc.6
-      '@trpc/server': 10.0.0-rc.6
+      '@trpc/client': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
+      '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8+c205e960
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.14.5_biqbaboplfbrettd7655fr4n2y
-      '@trpc/client': 10.0.0-rc.6_@trpc+server@10.0.0-rc.6
-      '@trpc/server': 10.0.0-rc.6
+      '@trpc/client': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8_ukfvue4lycpo3d2bc3nwdxn6qy
+      '@trpc/server': 10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@trpc/server/10.0.0-rc.6:
-    resolution: {integrity: sha512-8JAIX2SSTEwpdp+CRoPGsrj9A9qee0ltqa1fPXlKOtzQKbxDjGoqy6kVVh25YUJ8GJrXf4LhV8pZGkyZOOX6ow==}
+  /@trpc/server/10.0.0-alpha-exp-suspense-2022-11-07-23-41-14.8:
+    resolution: {integrity: sha512-1CQV1TowBwyhUBD45RjOBccoRDvL+VL6tbAm2z4KdaUlskPENeX8GkKopxAzmZ1TK7NSmHwPMxDT7P8s1MgCjw==}
     dev: false
 
   /@types/chai-subset/1.3.3:
