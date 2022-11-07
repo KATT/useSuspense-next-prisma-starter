@@ -23,7 +23,9 @@ const PostViewPage: NextPageWithLayout = () => {
   const id = useRouter().query.id as string;
   const postQuery = trpc.post.byId.useSuspenseQuery({ id });
 
-  return <PostItem post={postQuery.data} />;
+  const { data } = postQuery;
+  //      ^?
+  return <PostItem post={data} />;
 };
 
 export default PostViewPage;
